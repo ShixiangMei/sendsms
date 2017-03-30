@@ -4,7 +4,7 @@ namespace Yzxsms\Sendsms;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
-use Yzxsms\Sendsms\Ucpass;
+use ShixiangMei\Sendsms\Ucpass;
 
 class ServiceProvider extends LaravelServiceProvider
 {
@@ -27,7 +27,7 @@ class ServiceProvider extends LaravelServiceProvider
         });
 
         // 方便依赖注入
-        $this->app->bind('Yzxsms\Sendsms\Ucpass', function ($app) {
+        $this->app->bind('ShixiangMei\Sendsms\Ucpass', function ($app) {
             return new Ucpass(config('yzxsms'));
         });
     }
