@@ -1,5 +1,5 @@
 {
-    "name": "shixiangMei/sendsms",
+    "name": "shixiang-mei/sendsms",
     "description": "send yunzhixun sms for Laravel",
     "keywords": ["sms", "yunzhixun","laravel", "sdk"],
     "description": "yunzhixun sms SDK for Laravel",
