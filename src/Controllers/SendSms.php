@@ -1,8 +1,8 @@
 <?php
 
-namespace Yzxsms\Sendsms\Controllers;
+namespace ShixiangMei\Sendsms\Controllers;
 
-use Yzxsms\Sendsms\Ucpass;
+use ShixiangMei\Sendsms\Ucpass;
 
 class ContactController extends Controller
 {
