@@ -1,5 +1,5 @@
 {
-    "name": "yzxsms/sendsms",
+    "name": "shixiangMei/sendsms",
     "description": "send yunzhixun sms for Laravel",
     "keywords": ["sms", "yunzhixun","laravel", "sdk"],
     "description": "yunzhixun sms SDK for Laravel",
@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Yzxsms\\Sendsms\\": "src/"
+            "ShixiangMei\\Sendsms\\": "src/"
         }
     },
 
